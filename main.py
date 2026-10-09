@@ -1,3 +1,4 @@
+
 import csv
 
 from fastapi import FastAPI, Query
@@ -37,4 +38,4 @@ def get_students(
     else:
         result = students
 
-    return result
+    return {"students": result}
