@@ -37,4 +37,4 @@ def get_students(
     else:
         result = students
 
-    return {"students": result}
+    return result
